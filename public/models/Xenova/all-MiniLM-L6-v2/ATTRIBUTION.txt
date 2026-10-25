@@ -1,0 +1,6 @@
+Model: Xenova/all-MiniLM-L6-v2 (quantized ONNX conversion)
+Upstream: sentence-transformers/all-MiniLM-L6-v2
+Source: https://huggingface.co/Xenova/all-MiniLM-L6-v2
+Pinned revision: 751bff37182d3f1213fa05d7196b954e230abad9
+License: Apache-2.0 (see LICENSE)
+No model modifications made by CodeAtlas.

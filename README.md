@@ -54,3 +54,7 @@ saved edits. Download source ZIP includes unsaved drafts too. The ZIP contains
 only the supported text files imported into CodeAtlas, not the original archive's
 binaries, environment files, dependencies, or build output. Download before leaving:
 there is no persistent project storage or code execution terminal in this version.
+
+## GitHub asset setup
+
+Large generated WASM files and the embedding model are excluded from Git. After `npm install`, run `npm run setup:search` once to enable browser ML search. This downloads the pinned MiniLM model and verifies SHA-256, then copies the WASM runtime from installed dependencies. Keyword search and the Ollama tutor do not need this model download. `npm run local` prepares runtime files automatically; production builds also download/verify the embedding model. The full ZIP previously supplied includes these assets.
